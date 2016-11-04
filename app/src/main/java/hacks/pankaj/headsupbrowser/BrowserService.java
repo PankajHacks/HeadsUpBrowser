@@ -159,10 +159,10 @@ public class BrowserService extends Service {
         browserContainer.removeAllViews();
         lastHeadView = view;
         browserContainer.addView(tab.getView());
-        displaySelectedTabView(lastHeadView,R.drawable.browserHead);
+        displaySelectedTabView(lastHeadView,R.drawable.browser_head);
     }
 
-    // display the browserHead for selected tab
+    // display the browser_head for selected tab
     public void displaySelectedTabView(View view, int imageResource){
         selectedTab.setX(view.getX());
         selectedTab.setY(view.getY());
@@ -182,7 +182,7 @@ public class BrowserService extends Service {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
 
-        builder.setSmallIcon(R.drawable.browserHead)
+        builder.setSmallIcon(R.drawable.browser_head)
                 .setContentTitle("Heads Up Browser")
                 .setTicker("Heads Up Browser running")
                 .setContentText(browserTabsMap.size()+" Tabs active. Touch to close")

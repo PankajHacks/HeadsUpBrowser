@@ -17,7 +17,7 @@
 
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="50dp"
-    android:src="@drawable/browserHead"
+    android:src="@drawable/browser_head"
     android:id="@+id/head_imageview"
     android:layout_width="50dp"
     >

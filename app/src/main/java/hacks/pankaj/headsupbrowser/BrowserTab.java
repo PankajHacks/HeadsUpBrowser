@@ -32,7 +32,7 @@ public class BrowserTab {
     private WebView webView;
     private boolean selected=false;
 
-    private int imageResource = R.drawable.browserHead;
+    private int imageResource = R.drawable.browser_head;
     //TODO: download website favicon for image resource;
 
     public BrowserTab(LayoutInflater inflater, ViewGroup parent, String url){

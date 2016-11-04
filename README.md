@@ -4,6 +4,7 @@ HeadsUpBrowser
 
 - A floating window browser for android.
 - Inspired by the Facebook messenger's chat heads.
+- Current version can be downloaded from [Release](https://github.com/PankajHacks/HeadsUpBrowser/tree/master/Release) folder.
 - New feature contribution and bug-fixes are welcomed.
 
 For Hugs And Bugs
